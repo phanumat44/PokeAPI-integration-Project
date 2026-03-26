@@ -115,7 +115,7 @@ docker exec -it pokeapi_backend npm run test
 ## 📁 Project Structure
 
 ```
-PokeAPI/
+PokeAPI-integration-Project/
 ├── backend/
 │   ├── src/
 │   │   ├── auth/          # Register, Login, JWT Guard
