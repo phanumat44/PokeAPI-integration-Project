@@ -149,3 +149,5 @@ Import the files from the `postman/` directory:
 - `PokeAPI_Environment.postman_environment.json`
 
 The collection auto-saves the `access_token` after a successful login request.
+
+[View the Guide for Importing and Using the Postman Collection](./postman_collection_guide.md)
