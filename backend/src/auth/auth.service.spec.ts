@@ -45,7 +45,7 @@ describe('AuthService', () => {
       repo.save.mockResolvedValue({ id: 1, username: 'test' });
       
       const result = await service.register({ username: 'test', password: 'password' });
-      expect(result).toEqual({ message: 'User registered successfully' });
+      expect(result).toEqual({ message: 'registered successfully' });
     });
 
     it('should throw ConflictException if user exists', async () => {

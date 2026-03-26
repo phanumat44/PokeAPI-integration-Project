@@ -87,7 +87,7 @@ const PokemonPage: React.FC = () => {
 
         {data && !loading && (
           <>
-            <Card className="shadow-md border-t-4 border-blue-500 mb-6">
+            <Card className="shadow-md border-t-4 border-gray-700 mb-6">
               <div className="flex flex-col md:flex-row gap-8 items-center md:items-start p-4">
                 <div className="flex-1 text-center md:text-left">
                   <Title level={1} className="capitalize !mb-2 w-full">
@@ -106,7 +106,7 @@ const PokemonPage: React.FC = () => {
                       ))}
                     </Space>
                   </div>
-                  <div className="bg-gray-100 p-4 rounded-lg">
+                  <div className="bg-gray-100 p-4 rounded-lg border-2 w-full border-gray-500">
                     <Text type="secondary">Basic Stats</Text>
                     <div className="mt-2">
                       <Text strong>Weight: </Text>

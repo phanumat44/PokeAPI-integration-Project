@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import { ConfigProvider, theme } from 'antd';
+import { ConfigProvider } from 'antd';
+import useIllustrationTheme from './theme/themeConfig';
 import { AuthProvider } from './context/AuthContext';
 import LoginPage from './pages/LoginPage';
 import PokemonPage from './pages/PokemonPage';
@@ -7,15 +8,10 @@ import ProtectedRoute from './components/ProtectedRoute';
 import './index.css';
 
 function App() {
+  const configProps = useIllustrationTheme();
+
   return (
-    <ConfigProvider
-      theme={{
-        algorithm: theme.defaultAlgorithm,
-        token: {
-          colorPrimary: '#4f46e5', // Tailwind indigo-500
-        },
-      }}
-    >
+    <ConfigProvider {...configProps}>
       <AuthProvider>
         <Router>
           <Routes>
