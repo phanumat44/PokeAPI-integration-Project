@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+dist/
+build/
+*.log
+
+# Environment Variables
+.env
+.env.local
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Docker
+.docker/
+# (Optional) If you want to ignore the data volume folder on your host
+pgdata/
+
+# NestJS
+dist/
+node_modules/
+prebuild-error-arm64.txt
+prebuild-error-x64.txt
+
+
+
+
