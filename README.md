@@ -42,6 +42,7 @@ cp .env.example .env
 | `DB_NAME`     | Database name      | `pokeapi`                   |
 | `JWT_SECRET`  | Secret key for JWT | `super-secret-key-12345`    |
 | `POKEAPI_URL` | PokeAPI base URL   | `https://pokeapi.co/api/v2` |
+| `VITE_API_URL` | Frontend API URL   | `http://localhost:3000`     |
 
 ### 3. Run with Docker Compose
 

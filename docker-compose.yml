@@ -43,7 +43,7 @@ services:
       - backend
     environment:
       # Use localhost as this is executed in client's browser, targeting the host's exposed port 3000
-      VITE_API_URL: http://localhost:3000
+      VITE_API_URL: ${VITE_API_URL}
 
 volumes:
   pgdata:
