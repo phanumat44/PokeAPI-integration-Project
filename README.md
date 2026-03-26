@@ -20,7 +20,7 @@ Full-stack Pokemon Dashboard application built with **NestJS** + **TypeORM** + *
 
 ```bash
 git clone https://github.com/phanumat44/PokeAPI-integration-Project.git
-cd PokeAPI
+cd PokeAPI-integration-Project
 ```
 
 ### 2. Create environment file
